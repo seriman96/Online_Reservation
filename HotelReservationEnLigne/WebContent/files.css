@@ -1,0 +1,426 @@
+body{
+	width:100%;
+	height:100%;
+	font-family:"Consolas";
+	font-size:16px;
+	text-align:justify
+	margin:0px;
+	clear: none;
+	background-color: RGB(206,206,157);
+	
+}
+
+#searchZone{
+	width:100%;
+	height:45px;
+	padding-right:50px;
+	background:#06225a;
+	text-align:right;
+}
+
+#searchArea{
+	width:200px;
+	height:10px;
+	background:#FFFFFF;
+	float:right;
+	margin-right:-30px;
+	margin-top:2px;
+	padding:10px;
+	border-radius:10px;
+}
+
+#searchArea input{
+	float:left;
+	border:60px;
+}
+.serao{
+	margin-left: 150px;
+	margin-top: -30px;
+}
+#title{
+	width:1000px;
+	height:50px;
+	margin:0px auto;
+	margin-top:10px;
+}
+h1{
+	text-transform: uppercase;
+	margin-top: -150px;
+}
+#nav{
+	width:100%;
+	height:50px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-top:2px solid #CFCFC1;
+	border-bottom:2px solid #CFCFC1;}
+#links{
+	width:1000px;
+	height:40px;
+	float:left;
+	font-size:20px;
+	padding-top:10px;
+}
+#links a{
+	text-decoration:none;
+}
+#links li{
+	color:#06225a;
+	margin-right:20px;
+	list-style-type: none;
+	font-weight:bold;
+	border-right:1px dashed #3A352B;
+	padding-right:20px;
+}
+#menuReserv{
+	font-family:"Consolas";
+	font-weight:bold;
+	font-size:20px;
+	margin-left: 350px;
+	
+	
+}
+#menuReserv:hover{
+	color:#3A352B;
+}
+
+#links a:hover{
+	color:#06225a;
+}
+.reserv{
+	margin-top: -25px;
+	
+}
+.acue{
+	float: left;
+	/*position: relative;
+	top:-10px;*/
+	margin-left: 150px;
+}
+.serv{
+	float: left;
+	margin-top: -28px;
+	margin-left: 300px;
+}
+#contient{
+	width:400px;
+	min-height:200px;
+	overflow:auto;
+	margin-top:-355px;
+	margin-left: 380px;
+	
+}
+.promo{
+	color:green;
+	/*background-color:RGB(240,117,209);*/
+}
+h2{
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.logoHotel{
+	width: 200px;
+	height: 80px;
+}
+.corps{
+	/*background-color:green;*/
+	margin-top: 65px;
+}
+.imgApart{
+	display: inline-block;
+	margin-left: 520px;
+	margin-top: -465px;
+}
+.leftspan,.span5,.span8,.span6,.span3,.span9{
+	margin-left: 165px;
+	
+}
+.help{
+	display: inline;
+	/*margin-top: 50px;*/
+	position: relative;
+	top: -35px;
+}
+.sale{
+	margin: auto;
+	clear: both;
+}
+.imagSalle{
+	margin-left: 500px;
+	margin-top: -550px;
+}
+.span2d2,.span5d2,.span8d2,.span3d2,.span6d2,.span9d2{
+	margin-left: 160px;
+	margin-top: -50px;
+}
+.conclu{
+	border: 1px solid green;
+	margin-top: 10px;
+}
+.decouv{
+	background-color: RGB(240,117,209);
+}
+a{
+	text-decoration: none;
+	/*font-size: 18px;*/
+	text-transform: uppercase;
+}
+
+
+img{
+	display:block;
+}
+#footer{
+	
+	border:1px solid black;
+	background:#3A352B;
+	color:#FFF;
+	width:100%; 
+
+	
+	
+}
+.rueinfo,.bpinfo,.fainfo,.bainfo,.ph{
+	display: inline;
+	margin-left: 130px;
+	
+}
+.imgh{
+	display: inline;
+	margin-top: 10px;
+}
+.adInfo{
+	
+	margin-top: -250px;
+}
+.copuer{
+	
+	border:1px solid yellow;
+	display: inline-block;
+	margin-left: 350px;
+	margin-top: -200px;
+	width: 600px;
+}
+.clasParte{
+	display:inline;
+}
+.part{
+	display:inline;
+}
+.partClass{
+	margin-top: -15px;
+}
+
+.aFoot{
+	display: inline-block;
+	padding: 2px;
+}
+.resoi,.site,.site1{
+	display: inline-block;
+	margin-top: -20px;
+}
+.site{
+	position: relative;
+	top:-5px;
+}
+.site1{
+	margin-top: 10px;
+}
+
+input[type="submit"]{
+	width: 90px;
+	height: 40px;
+	background-color: RGB(214,210,141); /*#fe6921*/
+	color: #000;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+	width: 200px;
+	height: 20px;
+	
+}
+#typ{
+	width: 210px;
+	height: 25px;
+	/*padding: 0px;	*/
+}
+#modeR{
+	width:500px;
+	height: 25px;
+	margin-left: 5px;
+}
+label[for="Lnom"]{
+	margin-left: 30px;
+}
+label[for="Lcon"]{
+	margin-left: -10px;
+}
+label[for="Lage"]{
+	margin-left: 30px;
+}
+label[for="Lemai"]{
+	margin-left: 10px;
+}
+label[for="Ldr"]{
+	margin-left: 236px;
+}
+label[for="Lfr"]{
+	margin-left: 257px;
+}
+label[for="Ltrs"]{
+	margin-left: 50px;
+}
+label[for="Ltr"]{
+	margin-left: 125px;
+}
+label[for="Ltr11"]{
+	margin-left: 5px;
+}
+#fiels1 {
+	border:1px solid green;
+	width: 60%;
+	font-size: 18px;
+	background-color: RGB(214,210,141);
+}
+#fiel1{
+	background-color: RGB(149,206,157);
+}
+#fiel2{
+	background-color: RGB(149,206,157);/*163*/
+}
+#im{
+	display: inline-block;
+}
+
+.divAdd,.ad{
+	display: inline;
+}
+#fielCent{
+border:1px solid green;
+	width: 60%;
+	font-size: 18px;	
+}
+.divclie,.revatInfo,.tarifInfo,.apartemt,.remer{
+	
+}
+.tarifInfo,.apartemt{
+	display: inline;
+}
+.idc,.idc1,.idn,.idn1,.idp,.idp1,.dre,.dre1,.dre2,.comp,.comp1,.typre,.typre1,.typre2,.typre3,.frre,.frre1,.avan,.avan1,.somt,.somt1,.somr,.somr1,.typAprts,.typAprts1,.typAprts2,.typAprts3,.pass{
+	display: inline;
+}
+.durs,.durs1,.prixj,.prixj1,.prixse,.prixse1,.typAprts,.typAprts1,.typAprts2,.typAprts3{
+	display: inline;
+}
+.durs{
+	/*margin-top: -20px; ,.durs1*/
+	margin-left: -45px;
+}
+.typre{
+	/**/
+	margin-left: -5px;
+}
+.typre2{
+	/*,.typre3*/
+	margin-left: -40px;
+}
+.frre{
+	/*,.frre1*/
+	margin-left: -60px;
+}
+.avan{
+	/*,.avan1*/
+	margin-left: -80px;
+}
+.somt{
+/*,.somt1*/
+margin-left: -50px;	
+}
+.somr{
+	/*,.somr1*/
+	margin-left: -40px;	
+}
+.prixj,.prixse{
+	/*,.prixj1 ,.prixse1*/
+	margin-left: -85px;	
+}
+/*service supplementaire*/
+.service1,.service2,.service3,.service4{
+	display: inline-block;
+	padding: 30px;
+}
+.navconct{
+	float: right;
+	margin-top: -20px;
+	margin-right: 20px; 
+}
+.cnx{
+	font-weight: bold;
+}
+.conct{
+	display: inline-block;
+	border:1px solid black;
+	margin-left: 30%;
+	margin-top: 8%;
+	padding: 10%;
+	background-color: white;
+}
+#log{
+	margin-left: 26px;
+}
+#pas{
+	padding-left: 58px;
+}
+#form{
+	margin-top:-10%;
+}
+#suivant{
+	float: right;
+}
+/*td{
+	border:1px solid red;
+}*/
+input[name="idc"]{
+	width: 90px;
+	background-color: RGB(206,206,157);
+}
+td{
+	border: 1px solid black;
+}
+tr{
+	border-collapse: collapse;
+}
+.reserv{
+	list-style-type: none;
+	
+}
+input[name="lister"]{
+	margin-left: 390px;
+	width: 270px;
+	margin-top: -70px;
+}
+#contient1{
+	display: inline-block;
+	position: relative;
+	top:-250px;
+	width:200px;
+}
+.acue11{
+	list-style-type: none;
+	 
+}
+.relt{
+	margin-left: 220%;
+	position: relative;
+	top:-45px;
+	border: 1px solid black;
+	padding-right: 200px;
+	height: 20px;
+	background-color: white; 
+	color: black;
+	padding-top: 10px;
+	
+}
+select [name="menuReserv"]{
+	margin-top: -90px;
+}
